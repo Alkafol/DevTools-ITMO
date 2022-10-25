@@ -15,4 +15,8 @@ git branch --delete ci
 ### 3 task
 git log --graph --decorate $(git rev-list -g --all)  
 git checkout f95d  
-git branch old-master  
+git branch old-master 
+
+### 4 task
+git blame prisma/seed.ts  
+Last change - commit 3c82, 20.12.2021 
