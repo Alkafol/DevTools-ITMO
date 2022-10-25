@@ -20,3 +20,8 @@ git branch old-master
 ### 4 task
 git blame prisma/seed.ts  
 Last change - commit 3c82, 20.12.2021 
+
+### 5 task
+git checkout {commit name}  
+3c82 - commit with regress  
+
