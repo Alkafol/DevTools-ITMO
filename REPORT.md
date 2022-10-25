@@ -32,3 +32,8 @@ echo '.env' >> .gitignore
 git add .gitignore  
 git commit -m "chore: update .gitignore"  
 
+### 7 task
+git checkout feature  
+git filter-branch -f --env-filter "GIT_COMMITTER_NAME='Semenov Roman'; GIT_COMMITTER_EMAIL='semenovroman8@gmail.com';" 4cac..HEAD  
+
+
