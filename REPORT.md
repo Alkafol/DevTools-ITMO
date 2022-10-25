@@ -55,3 +55,8 @@ git commit -m "feat: add feature"
 
 ### 9 task
 git fsck
+
+### 10 task
+du -hs .git  
+git gc --prune=now --aggressive  
+du -hs .git  
