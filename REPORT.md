@@ -60,3 +60,5 @@ git fsck
 du -hs .git  
 git gc --prune=now --aggressive  
 du -hs .git  
+
+### 11 task
