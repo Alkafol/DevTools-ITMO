@@ -11,3 +11,8 @@ fixup 4940a90
 git checkout master  
 git merge ci
 git branch --delete ci  
+
+### 3 task
+git log --graph --decorate $(git rev-list -g --all)  
+git checkout f95d  
+git branch old-master  
