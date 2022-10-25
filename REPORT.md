@@ -52,3 +52,6 @@ $ git reset --hard HEAD~1
 git merge feature  
 git add README.md  
 git commit -m "feat: add feature"  
+
+### 9 task
+git fsck
