@@ -36,4 +36,19 @@ git commit -m "chore: update .gitignore"
 git checkout feature  
 git filter-branch -f --env-filter "GIT_COMMITTER_NAME='Semenov Roman'; GIT_COMMITTER_EMAIL='semenovroman8@gmail.com';" 4cac..HEAD  
 
+### 8 task
+git config rerere.enabled true  
+git checkout master  
+git merge feature  
 
+*Fix conflict in editor*
+
+git add README.md  
+git commit -m "feat: add feature"  
+
+*Undo merge*  
+$ git reset --hard HEAD~1  
+
+git merge feature  
+git add README.md  
+git commit -m "feat: add feature"  
